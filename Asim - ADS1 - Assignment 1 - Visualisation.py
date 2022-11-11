@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 data = pd.DataFrame({
    'Goats': [20, 18, 489, 675, 1776],
    'Horses': [4, 25, 281, 600, 1900]
-   }, index=[1990, 1997, 2003, 2009, 2014])
+   }, index = [1990, 1997, 2003, 2009, 2014])
 
 data.plot.line()
 plt.show()
@@ -19,7 +19,7 @@ plt.show()
 data = pd.DataFrame({
    'Goats': [20, 18, 489, 675, 1776],
    'Horses': [4, 25, 281, 600, 1900]
-   }, index=[1990, 1997, 2003, 2009, 2014])
+   }, index = [1990, 1997, 2003, 2009, 2014])
 
 data.plot.bar()
 plt.show()
@@ -27,7 +27,7 @@ plt.show()
 
 data = pd.DataFrame({'Mass': [40, 200],
                    'Height': [4, 7]},
-                  index=['Goats', 'Horses'])
+                  index = ['Goats', 'Horses'])
 
-data.plot.pie(y='Mass', figsize=(5, 5))
+data.plot.pie(y = 'Mass', figsize = (5, 5))
 plt.show()
